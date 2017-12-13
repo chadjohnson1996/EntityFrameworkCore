@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\src\EFCore.SqlServer\EFCore.SqlServer.csproj" />
+    <ProjectReference Include="..\src\EFCore.Tools.DotNet\EFCore.Tools.DotNet.csproj" />
+    <ProjectReference Include="..\src\EFCore.Tools\EFCore.Tools.csproj" />
+    <ProjectReference Include="..\src\EFCore\EFCore.csproj" />
+  </ItemGroup>
+
+</Project>
